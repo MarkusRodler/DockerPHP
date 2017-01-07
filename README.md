@@ -1,4 +1,4 @@
-# DockerPHP
+# DockerPHP - 5.6 FPM
 
 ## PHP Docker Image
 
