@@ -1,8 +1,8 @@
-# DockerPHP - 7.0 FPM
+# DockerPHP - 7.1 FPM
 
 ## PHP Docker Image
 
-Erweitert das offizielle PHP Image (php:7.0-fpm) um folgende Module:
+Erweitert das offizielle PHP Image (php:7.1-fpm) um folgende Module:
 
 - json 
 - mbstring
