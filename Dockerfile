@@ -5,10 +5,9 @@ MAINTAINER Markus Rodler
 RUN apk --no-cache add \
         icu-libs \
         curl-dev \
-#        libcurl4-openssl \
-#        libjpeg \
-#        libicu \
-#        libpng \
+        freetype \
+        libjpeg-turbo \
+        libpng \
  && docker-php-ext-install \
         json \ 
         mbstring \
