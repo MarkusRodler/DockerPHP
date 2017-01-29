@@ -10,7 +10,7 @@ RUN apk --no-cache add \
 #        libpng \
 RUN docker-php-ext-install \
         json \ 
-#        mbstring \
+        mbstring \
 #        opcache \
 #        pdo \
 #        pdo_mysql \
