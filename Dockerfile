@@ -17,7 +17,7 @@ RUN apk --no-cache add \
         pdo_mysql \
         mysqli \
         curl \
-#        gd \
+        gd \
 #        intl \
         tokenizer
 
