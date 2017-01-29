@@ -14,7 +14,7 @@ RUN docker-php-ext-install \
         opcache \
         pdo \
         pdo_mysql \
-#        mysqli \
+        mysqli \
 #        curl \
 #        gd \
 #        intl \
