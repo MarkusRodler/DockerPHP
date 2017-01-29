@@ -3,12 +3,13 @@ FROM php:7.1-fpm-alpine
 MAINTAINER Markus Rodler
 
 RUN apk --no-cache add \
-        icu-libs
+        icu-libs \
+        libcurl
 #        libcurl4-openssl \
 #        libjpeg \
 #        libicu \
 #        libpng \
-RUN docker-php-ext-install \
+ && docker-php-ext-install \
         json \ 
         mbstring \
         opcache \
