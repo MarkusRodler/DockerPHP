@@ -2,11 +2,11 @@ FROM php:7.1-fpm-alpine
 
 MAINTAINER Markus Rodler
 
-RUN apk add --no-cache \
-        libcurl4-openssl-dev \
-        libjpeg-dev \
-        libicu-dev \
-        libpng-dev \
+RUN apk --no-cache add \
+        libcurl4-openssl \
+        libjpeg \
+        libicu \
+        libpng \
  && docker-php-ext-install -j$(nproc) \
         json \ 
         mbstring \
