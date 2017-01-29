@@ -4,7 +4,7 @@ MAINTAINER Markus Rodler
 
 RUN apk --no-cache add \
         icu-libs \
-        libcurl
+        libcurl \
 #        libcurl4-openssl \
 #        libjpeg \
 #        libicu \
