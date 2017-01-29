@@ -16,7 +16,7 @@ RUN docker-php-ext-install \
 #        mysqli \
 #        curl \
 #        gd \
-#        intl \
+        intl \
         tokenizer
 
 EXPOSE 9000
