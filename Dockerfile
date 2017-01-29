@@ -7,7 +7,7 @@ MAINTAINER Markus Rodler
 #        libjpeg \
 #        libicu \
 #        libpng \
-RUN docker-php-ext-install -j$(nproc) \
+RUN docker-php-ext-install \
 #        json \ 
 #        mbstring \
 #        opcache \
