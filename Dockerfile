@@ -2,12 +2,8 @@ FROM php:7.1-fpm-alpine
 
 MAINTAINER Markus Rodler
 
-RUN apk --no-cache add \
-        libcurl4-openssl \
-        libjpeg \
-        libicu \
-        libpng \
- && docker-php-ext-install -j$(nproc) \
+
+RUN docker-php-ext-install -j$(nproc) \
         json \ 
         mbstring \
         opcache \
