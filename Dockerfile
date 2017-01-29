@@ -1,14 +1,14 @@
-FROM php:7.1-fpm
+FROM php:7.1-fpm-alpine
 
 MAINTAINER Markus Rodler
 
-RUN apt-get update \
- && apt-get install --no-install-recommends --no-install-suggests -y \
-        libcurl4-openssl-dev \
-        libjpeg-dev \
-        libicu-dev \
+RUN apk --no-cache add \
+        icu-dev \
+        curl-dev \
+        freetype-dev \
+        libjpeg-turbo-dev \
         libpng-dev \
- && docker-php-ext-install -j$(nproc) \
+ && docker-php-ext-install \
         json \ 
         mbstring \
         opcache \
@@ -18,10 +18,6 @@ RUN apt-get update \
         curl \
         gd \
         intl \
-        tokenizer \
-&& apt-get clean && rm -rf \
-        /var/lib/apt/lists/* \
-        /tmp/* \
-        /var/tmp/*
+        tokenizer
 
 EXPOSE 9000
