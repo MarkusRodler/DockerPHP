@@ -2,7 +2,8 @@ FROM php:7.1-fpm-alpine
 
 MAINTAINER Markus Rodler
 
-#RUN apk --no-cache add \
+RUN apk --no-cache add \
+        icu-libs
 #        libcurl4-openssl \
 #        libjpeg \
 #        libicu \
