@@ -11,7 +11,7 @@ RUN apk --no-cache add \
 RUN docker-php-ext-install \
         json \ 
         mbstring \
-#        opcache \
+        opcache \
 #        pdo \
 #        pdo_mysql \
 #        mysqli \
