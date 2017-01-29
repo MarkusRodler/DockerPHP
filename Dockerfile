@@ -17,7 +17,7 @@ RUN apk --no-cache add \
         mysqli \
         curl \
         gd \
-#        intl \
+        intl \
         tokenizer
 
 EXPOSE 9000
