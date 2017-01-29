@@ -12,8 +12,8 @@ RUN docker-php-ext-install \
         json \ 
         mbstring \
         opcache \
-#        pdo \
-#        pdo_mysql \
+        pdo \
+        pdo_mysql \
 #        mysqli \
 #        curl \
 #        gd \
