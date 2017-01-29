@@ -9,7 +9,7 @@ RUN apk --no-cache add \
 #        libicu \
 #        libpng \
 RUN docker-php-ext-install \
-#        json \ 
+        json \ 
 #        mbstring \
 #        opcache \
 #        pdo \
@@ -17,7 +17,7 @@ RUN docker-php-ext-install \
 #        mysqli \
 #        curl \
 #        gd \
-        intl \
+#        intl \
         tokenizer
 
 EXPOSE 9000
