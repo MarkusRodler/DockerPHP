@@ -18,6 +18,7 @@ RUN apt-get update \
         curl \
         gd \
         intl \
+        sockets \
 && apt-get clean && rm -rf \
         /var/lib/apt/lists/* \
         /tmp/* \
