@@ -18,6 +18,7 @@ RUN apk --no-cache add \
         curl \
         gd \
         intl \
-        tokenizer
+        tokenizer \
+        sockets
 
 EXPOSE 9000
