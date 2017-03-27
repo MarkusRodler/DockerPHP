@@ -19,6 +19,7 @@ RUN apt-get update \
         gd \
         intl \
         tokenizer \
+        sockets\
 && apt-get clean && rm -rf \
         /var/lib/apt/lists/* \
         /tmp/* \

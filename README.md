@@ -13,6 +13,8 @@ Erweitert das offizielle PHP Image (php:7.1-fpm) um folgende Module:
 - mysqli
 - curl
 - gd
-- intl 
+- intl
+- tokenizer
+- sockets
 
 Erweiterte Dokumentation auf https://hub.docker.com/_/php/
