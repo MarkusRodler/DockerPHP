@@ -11,7 +11,6 @@ RUN apt-get update \
  && docker-php-ext-install -j$(nproc) \
         json \ 
         mbstring \
-        pcre \
         opcache \
         pdo \
         pdo_mysql \
