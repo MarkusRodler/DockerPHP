@@ -1,4 +1,4 @@
-FROM php:7.1-fpm-alpine
+FROM php:7.0-fpm-alpine
 
 MAINTAINER Markus Rodler
 
@@ -9,7 +9,7 @@ RUN apk --no-cache add \
         libjpeg-turbo-dev \
         libpng-dev \
  && docker-php-ext-install \
-        json \ 
+        json \
         mbstring \
         opcache \
         pdo \
