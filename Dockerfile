@@ -8,7 +8,7 @@ RUN apk --no-cache add \
     freetype-dev \
     libjpeg-turbo-dev \
     libpng-dev \
-    libonig-dev \
+    oniguruma-dev \
     && docker-php-ext-install \
     json \
     mbstring \
