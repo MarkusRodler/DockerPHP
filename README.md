@@ -3,7 +3,7 @@
 
 ## PHP Docker Image
 
-Extends the official PHP Image (php:7.4-rc-fpm-alpine) with these modules:
+Extends the official PHP Image (php:7.4-fpm-alpine) with these modules:
 - json
 - mbstring
 - opcache
