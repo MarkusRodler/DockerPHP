@@ -16,17 +16,3 @@ Extends the official PHP Image (php:7.4-fpm-alpine) with these modules:
 - sockets
 
 Documentation can be found here: https://hub.docker.com/_/php/
-
-## PHP Docker Image with Composer
-
-Extends mrodler:php with composer.
-Composer is available inside from the command line.
-
-Documentation can be found here: https://hub.docker.com/_/php/
-
-## PHP Docker Image with Composer and Xdebug
-
-Extends mrodler:php-composer with xdebug.
-Appropriate Xdebug Configuration needed inside the container.
-
-Documentation can be found here: https://hub.docker.com/_/php/

@@ -15,7 +15,6 @@ RUN apk --no-cache add \
     opcache \
     pdo \
     pdo_mysql \
-    mysqli \
     curl \
     gd \
     intl \

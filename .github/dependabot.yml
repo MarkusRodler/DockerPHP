@@ -4,3 +4,18 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+
+  - package-ecosystem: "docker"
+    directory: "/php"
+    schedule:
+      interval: "daily"
+
+  - package-ecosystem: "docker"
+    directory: "/php-composer"
+    schedule:
+      interval: "daily"
+
+  - package-ecosystem: "docker"
+    directory: "/php-composer-xdebug"
+    schedule:
+      interval: "daily"
