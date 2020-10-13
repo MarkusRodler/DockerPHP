@@ -1,4 +1,4 @@
-FROM mrodler/php-composer:7.4.10-fpm-alpine
+FROM mrodler/php-composer:7.4.11-fpm-alpine
 
 LABEL maintainer="Markus Rodler"
 
