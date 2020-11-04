@@ -1,13 +1,6 @@
 version: 2
 updates:
   - package-ecosystem: "docker"
-    directory: "/"
-    schedule:
-      interval: "daily"
-    assignees:
-      - "MarkusRodler"
-
-  - package-ecosystem: "docker"
     directory: "/php"
     schedule:
       interval: "daily"
