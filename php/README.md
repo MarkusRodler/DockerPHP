@@ -3,16 +3,44 @@
 
 ## PHP Docker Image
 
-Extends the official PHP Image (php:7.4-fpm-alpine) with these modules:
-- json
-- mbstring
-- opcache
-- pdo
-- pdo_mysql
+Extends the official PHP Image (php:7.4-fpm-alpine) and enables these modules:
+- Core
+- ctype
 - curl
+- date
+- dom
+- fileinfo
+- filter
+- ftp
 - gd
+- hash
+- iconv
 - intl
-- tokenizer
+- json
+- libxml
+- mbstring
+- mysqlnd
+- openssl
+- pcre
+- PDO
+- pdo_mysql
+- pdo_sqlite
+- Phar
+- posix
+- readline
+- Reflection
+- session
+- SimpleXML
 - sockets
+- sodium
+- SPL
+- sqlite3
+- standard
+- tokenizer
+- xml
+- xmlreader
+- xmlwriter
+- Zend OPcache
+- zlib
 
 Documentation can be found here: https://hub.docker.com/_/php/

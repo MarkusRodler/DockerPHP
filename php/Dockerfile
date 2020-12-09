@@ -4,21 +4,17 @@ LABEL maintainer="Markus Rodler"
 
 RUN apk --no-cache add \
     icu-dev \
-    curl-dev \
-    freetype-dev \
+    freetype \
+    libjpeg \
+    libjpeg-turbo \
     libjpeg-turbo-dev \
     libpng-dev \
-    oniguruma-dev \
+    oniguruma \
+    && docker-php-ext-configure gd --enable-gd --with-jpeg \
     && docker-php-ext-install \
-    json \
-    mbstring \
     opcache \
-    pdo \
     pdo_mysql \
-    curl \
     gd \
     intl \
-    tokenizer \
     sockets
-
 EXPOSE 9000
