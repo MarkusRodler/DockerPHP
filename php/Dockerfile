@@ -17,4 +17,5 @@ RUN apk --no-cache add \
     gd \
     intl \
     sockets
+
 EXPOSE 9000
