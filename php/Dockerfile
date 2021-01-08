@@ -1,4 +1,4 @@
-FROM php:8.0.0-fpm-alpine
+FROM php:8.0.1-fpm-alpine
 
 LABEL maintainer="Markus Rodler"
 
