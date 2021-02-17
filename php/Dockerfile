@@ -10,7 +10,8 @@ RUN apk --no-cache add \
     libjpeg-turbo-dev \
     libpng-dev \
     oniguruma \
-    && docker-php-ext-configure gd --enable-gd --with-jpeg \
+    libwebp-dev \
+    && docker-php-ext-configure gd --enable-gd --with-jpeg --with-webp \
     && docker-php-ext-install \
     opcache \
     pdo_mysql \
